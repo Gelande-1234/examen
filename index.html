@@ -14,14 +14,23 @@
             width: 100%;
             height: 100px;
             align-items: center;
+            justify-content: center;
         }
         .btn-outline-success{
             background-color: orangered;
         }
         .btn btn-watch{
-            background-color: orangered;}
+            background-color: orangered;
+        }
+        .carousel-inner {
+            position: relative;
+            width: 1780px;
+            height: 600px;
+            margin: auto;
+            z-index:-2;
+        }
 
-            .hero-content {
+        .hero-content {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -37,6 +46,10 @@
             text-transform: uppercase;
             font-weight: bold;
             margin-bottom: 30px;
+        }
+        .btn-watch:hover {
+            background-color:orangered;
+            color: white;
         }
 
     </style>
@@ -120,8 +133,8 @@
             </div>
         </div>
         <div class="hero-content">
-            <h1 class="hero-title">TOUS LES ANIMES RETROUVEZ-LES ICI</h1>
-            <p class="hero-subtitle"></p>
+            <h1 class="hero-title" style="color: white;"><strong>TOUS LES ANIMES RETROUVEZ-LES ICI</strong></h1>
+            <p class="hero-subtitle"><strong style="color: white;">LE TOUT POUR SEULEMENT 19.90S PAR MOIS</strong></p>
             <button class="btn btn-watch">ESSAYEZ-LE GRATUITEMENT</button>
         </div>
     </div>
